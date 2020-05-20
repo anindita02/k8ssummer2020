@@ -34,3 +34,9 @@ spec:
   type: NodePort 
 status:
   loadBalancer: {}
+  
+kubectl create -f q2.yaml
+kubectl get po
+kubectl get nodes
+kubectl get svc
+
